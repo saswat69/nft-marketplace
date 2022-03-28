@@ -1,0 +1,18 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  width: 50%;
+}
+h1 {
+  font-style: oblique;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
